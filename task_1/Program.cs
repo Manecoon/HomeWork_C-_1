@@ -6,11 +6,9 @@ Console.WriteLine("Веедите второе число: ");
 int numB = Convert.ToInt32(Console.ReadLine());
 if (numA > numB)
 {
-    Console.Write("Наибольшее число: ");
-    Console.Write(numA);
+    Console.Write($"Наибольшее число: {numA}");
 }
 else
 {
-    Console.Write("Наибольшее число: ");
-    Console.Write(numB);
+    Console.Write($"Наибольшее число: {numB}");
 }
